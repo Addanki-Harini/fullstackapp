@@ -10,7 +10,7 @@ pipeline {
         BACKEND_DIR = 'crud_backend/crud_backend-main'
         FRONTEND_DIR = 'crud_frontend/crud_frontend-main'
 
-        TOMCAT_URL = 'http://184.72.122.226:9090/manager/text'
+        TOMCAT_URL = 'http://67.202.45.198:9090/manager/text'
         TOMCAT_USER = 'admin'
         TOMCAT_PASS = 'admin'
 
@@ -86,7 +86,7 @@ pipeline {
 
     post {
         success {
-            echo "✅ Backend deployed: http://184.72.122.226:9090/springapp1"
+            echo "✅ Backend deployed: http://67.202.45.198:9090/springapp1"
             echo "✅ Frontend deployed: http://184.72.122.226:9090/frontapp1"
         }
         failure {
